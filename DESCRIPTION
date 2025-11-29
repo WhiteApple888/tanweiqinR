@@ -1,0 +1,15 @@
+Package: cleanIVENT
+Title: Tools for Cleaning and Preparing intervention Data for AI Screening
+Description: Tools for cleaning hospital intervention data, preparing de-identified datasets for AI-based screening,and exporting structured CSV output files. The package automates formatting, filtering, and data preparation steps to support consistent processing workflows.
+Version: 1.0
+Authors@R: person("Wei Qin", "Tan", email = "tanweiqin1995@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: https://youtu.be/Oeguxv9mTh8
+Suggests:
+    testthat (>= 3.0.0)
+Imports:
+  readr,
+  dplyr,
+  stringr,
+  tibble
+Config/testthat/edition: 3
